@@ -8,9 +8,9 @@ Create a symlink to my .vimrc which is quite messy though:
 
     ln -s ~/src/vim/.vimrc ~/.vimrc
 
-You can add pathogen by yourself or link it to here
+You can add pathogen by yourself or link it to here. I'm assuming .vim exists already and autoload directory does not exist.
 
-    ln -s ~/src/vim/pathogen-vim/autoload ~/.vimrc/autoload
+    ln -s ~/src/vim/pathogen-vim/autoload ~/.vim/autoload
 
 Change this part of .vimrc to where you placed this repo's bundle
 
