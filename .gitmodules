@@ -22,3 +22,7 @@
 	path = bundle/nginx.vim
 	url = git://github.com/vim-scripts/nginx.vim.git
     ignore = dirty
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+    ignore = dirty
