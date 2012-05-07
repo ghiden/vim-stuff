@@ -92,6 +92,7 @@ if has("autocmd")
   " JavaScript-like
   au FileType javascript setlocal ts=2 sts=2 sw=2 expandtab
   au FileType coffee setlocal ts=2 sts=2 sw=2 expandtab
+  au FileType json setlocal ts=2 sts=2 sw=2 expandtab
 
   " etc
   au FileType cucumber setlocal ts=2 sts=2 sw=2 expandtab
