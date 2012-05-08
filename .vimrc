@@ -79,7 +79,7 @@ if has("autocmd")
   " languages
   au FileType vim setlocal ts=2 sts=2 sw=2 expandtab
   au FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
-  au FileType python setlocal ts=4 sts=4 sw=4 noexpandtab
+  au FileType python setlocal ts=4 sts=4 sw=4 expandtab
   au FileType php setlocal ts=4 sts=4 sw=4 expandtab
 
    " HTML-like
