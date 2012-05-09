@@ -113,3 +113,7 @@ let mapleader = ","
 " paste mode
 noremap <leader>p :set paste<CR>
 noremap <leader>np :set nopaste<CR>
+
+" command-t stuff
+" add ESC to cancel file listing
+let g:CommandTCancelMap=['<Esc>', '<C-c>']
