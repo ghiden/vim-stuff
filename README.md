@@ -28,4 +28,5 @@ git submodule update
 * vim-rails
 * vim-rspec
 * nginx.vim: For this, I don't edit nginx.conf all the time, so I change syntax to nginx when I need to. :set syntax=nginx
+* vim-markdown
 
