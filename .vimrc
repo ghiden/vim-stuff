@@ -104,6 +104,9 @@ if has("autocmd")
   " Consider .eco file as erb template file 
   " au BufNewFile,BufRead *.eco set filetype=eruby
 
+  " Markdown: enable word wrap
+  au BufNewFile,BufRead *.md set wrap linebreak nolist
+
   " automatically reload .vimrc after saving .vimrc
   au BufWritePost .vimrc source $MYVIMRC
 endif
@@ -117,3 +120,7 @@ noremap <leader>np :set nopaste<CR>
 " command-t stuff
 " add ESC to cancel file listing
 let g:CommandTCancelMap=['<Esc>', '<C-c>']
+
+" Custom command
+command! -nargs=* Wrap set wrap linebreak nolist
+
