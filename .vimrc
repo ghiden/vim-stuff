@@ -79,6 +79,7 @@ if has("autocmd")
   " languages
   au FileType vim setlocal ts=2 sts=2 sw=2 expandtab
   au FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
+  au FileType eruby setlocal ts=2 sts=2 sw=2 expandtab
   au FileType python setlocal ts=4 sts=4 sw=4 expandtab
   au FileType php setlocal ts=4 sts=4 sw=4 expandtab
 
@@ -124,3 +125,5 @@ let g:CommandTCancelMap=['<Esc>', '<C-c>']
 " Custom command
 command! -nargs=* Wrap set wrap linebreak nolist
 
+" zencoding config
+let g:user_zen_settings = {'indentation':' '}
