@@ -30,4 +30,5 @@ git submodule update
 * nginx.vim: For this, I don't edit nginx.conf all the time, so I change syntax to nginx when I need to. :set syntax=nginx
 * vim-markdown
 * zencoding-vim
+* vim-puppet
 
