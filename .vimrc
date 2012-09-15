@@ -106,7 +106,7 @@ if has("autocmd")
   " au BufNewFile,BufRead *.eco set filetype=eruby
 
   " Markdown: enable word wrap
-  au BufNewFile,BufRead *.md set wrap linebreak nolist
+  au BufNewFile,BufRead *.md set wrap linebreak
 
   " automatically reload .vimrc after saving .vimrc
   au BufWritePost .vimrc source $MYVIMRC
@@ -126,4 +126,4 @@ let g:CommandTCancelMap=['<Esc>', '<C-c>']
 command! -nargs=* Wrap set wrap linebreak nolist
 
 " zencoding config
-let g:user_zen_settings = {'indentation':' '}
+let g:user_zen_settings = {'indentation':'  '}
