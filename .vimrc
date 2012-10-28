@@ -127,3 +127,23 @@ command! -nargs=* Wrap set wrap linebreak nolist
 
 " zencoding config
 let g:user_zen_settings = {'indentation':'  '}
+
+" unite
+let g:unite_enable_start_insert=0
+" List buffers
+noremap <C-U><C-B> :Unite buffer<CR>
+" List files
+noremap <C-U><C-F> :UniteWithBufferDir -buffer-name=files file<CR>
+" List recently used files
+noremap <C-U><C-R> :Unite file_mru<CR>
+" List registers
+noremap <C-U><C-Y> :Unite -buffer-name=register register<CR>
+" List file and buffer
+noremap <C-U><C-U> :Unite buffer file<CR>
+" List all
+noremap <C-U><C-A> :Unite UniteWithBufferDir -buffer-name=files buffer file_mru bookmark file<CR>
+" exit from Unite 
+au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
+au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
+
+

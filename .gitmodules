@@ -35,3 +35,9 @@
 [submodule "bundle/puppet"]
 	path = bundle/puppet
 	url = git://github.com/rodjek/vim-puppet.git
+[submodule "unite.vim"]
+	path = unite.vim
+	url = git://github.com/Shougo/unite.vim.git
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = git://github.com/Shougo/unite.vim.git
