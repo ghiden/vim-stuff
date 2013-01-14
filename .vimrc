@@ -51,7 +51,7 @@ set ts=4 sts=4 sw=4 expandtab
 set smarttab
 
 " show invisible chars
-set list
+"set list
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,eol:¬
 " Invisible character colors
