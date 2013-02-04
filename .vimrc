@@ -146,4 +146,5 @@ noremap <C-U><C-A> :Unite UniteWithBufferDir -buffer-name=files buffer file_mru 
 au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
 au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 
-
+" Experimenting Ctrl-J twice for ESC
+inoremap <C-j><C-j> <Esc>
