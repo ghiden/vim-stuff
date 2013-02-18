@@ -19,8 +19,8 @@ Change this part of .vimrc to where you placed this repo's bundle
 Plugins (git submodules)
 -------
 
-git submodule init
-git submodule update
+    git submodule init
+    git submodule update
 
 * pathogen
 * vim-coffee-script
