@@ -1,1 +1,3 @@
 *.swp
+bundle/json.vim/.netrwhist
+bundle/ctrlp.vim/doc/tags

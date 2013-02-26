@@ -67,7 +67,7 @@ set fileformat=unix
 set fileformats=unix,mac,dos
 
 "Only enable this if you have pathogen
-call pathogen#infect("~/src/vim-stuff/bundle")
+call pathogen#infect("~/vim-stuff/bundle")
 
 " autocmd
 if has("autocmd") 
@@ -149,3 +149,5 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 " Experimenting Ctrl-J twice for ESC
 inoremap <C-j><C-j> <Esc>
 noremap <C-j><C-j> :nohlsearch<CR> 
+
+set runtimepath^=~/vim-stuff/bundle/ctrlp.vim
