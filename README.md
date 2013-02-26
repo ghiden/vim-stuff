@@ -31,4 +31,5 @@ Plugins (git submodules)
 * vim-markdown
 * zencoding-vim
 * vim-puppet
+* ctrlp
 
