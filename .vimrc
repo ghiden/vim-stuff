@@ -151,3 +151,6 @@ inoremap <C-j><C-j> <Esc>
 noremap <C-j><C-j> :nohlsearch<CR> 
 
 set runtimepath^=~/vim-stuff/bundle/ctrlp.vim
+
+" ack
+let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
