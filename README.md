@@ -32,4 +32,5 @@ Plugins (git submodules)
 * zencoding-vim
 * vim-puppet
 * ctrlp
-
+* unimpaired
+* ack
