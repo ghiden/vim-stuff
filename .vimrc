@@ -115,8 +115,8 @@ endif
 let mapleader = ","
 
 " paste mode
-noremap <leader>p :set paste<CR>
-noremap <leader>np :set nopaste<CR>
+nnoremap <C-s>p :set paste<CR>
+nnoremap <C-s>np :set nopaste<CR>
 
 " command-t stuff
 " add ESC to cancel file listing
@@ -151,6 +151,13 @@ inoremap <C-j><C-j> <Esc>
 noremap <C-j><C-j> :nohlsearch<CR> 
 
 set runtimepath^=~/vim-stuff/bundle/ctrlp.vim
+let g:ctrlp_working_path_mode = 0
+"let g:ctrlp_user_command = 'find %s -name "*\.swp" -prune -o -name "node_modules" -prune -o -name "\.git" -prune -o -name "\.tmp" -prune -o -name "\.sass-cache" -prune -o -type f'
 
 " ack
-let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
+"let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
+let g:ackprg='ag --nogroup --nocolor --column'
+
+" preview in marked
+nnoremap <C-m>md :silent !open -a Marked.app '%:p'<CR> 
+
