@@ -156,6 +156,7 @@ let g:ctrlp_working_path_mode = 0
 
 " ack
 "let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
+" ag
 let g:ackprg='ag --nogroup --nocolor --column'
 
 " preview in marked
