@@ -57,3 +57,6 @@
 [submodule "bundle/vim-visual-increment"]
 	path = bundle/vim-visual-increment
 	url = git@github.com:triglav/vim-visual-increment.git
+[submodule "bundle/MatchTag"]
+	path = bundle/MatchTag
+	url = git@github.com:gregsexton/MatchTag.git
