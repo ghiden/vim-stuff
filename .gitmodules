@@ -54,3 +54,6 @@
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
     ignore = dirty
+[submodule "bundle/vim-visual-increment"]
+	path = bundle/vim-visual-increment
+	url = git@github.com:triglav/vim-visual-increment.git
