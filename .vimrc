@@ -153,6 +153,7 @@ noremap <C-j><C-j> :nohlsearch<CR>
 set runtimepath^=~/vim-stuff/bundle/ctrlp.vim
 let g:ctrlp_working_path_mode = 0
 "let g:ctrlp_user_command = 'find %s -name "*\.swp" -prune -o -name "node_modules" -prune -o -name "\.git" -prune -o -name "\.tmp" -prune -o -name "\.sass-cache" -prune -o -type f'
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
 " ack
 "let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
@@ -162,3 +163,9 @@ let g:ackprg='ag --nogroup --nocolor --column'
 " preview in marked
 nnoremap <C-m>md :silent !open -a Marked.app '%:p'<CR> 
 
+" Boshen need this :(
+noremap H ^
+noremap L g_
+
+" ctags
+set tags+=.tags
