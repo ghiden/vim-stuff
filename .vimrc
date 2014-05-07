@@ -169,3 +169,6 @@ noremap L g_
 
 " ctags
 set tags+=.tags
+
+" select last paste in visual mode
+nnoremap <expr> gb '`[' . strpart(getregtype(), 0, 1) . '`]'
