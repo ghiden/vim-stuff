@@ -156,9 +156,9 @@ let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
 " ack
-"let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
-" ag
-let g:ackprg='ag --nogroup --nocolor --column'
+" let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
+" Install platinum searcher
+let g:ackprg='pt --nogroup --nocolor --column'
 
 " preview in marked
 nnoremap <C-m>md :silent !open -a Marked.app '%:p'<CR> 
@@ -197,4 +197,3 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-
