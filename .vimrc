@@ -157,8 +157,8 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
 " ack
 " let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
-" Install platinum searcher
-let g:ackprg='pt --nogroup --nocolor --column'
+" Use ag instead
+let g:ackprg='ag --nogroup --nocolor --column'
 
 " preview in marked
 nnoremap <C-m>md :silent !open -a Marked.app '%:p'<CR> 
