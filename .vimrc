@@ -114,9 +114,8 @@ endif
 
 let mapleader = ","
 
-" paste mode
-nnoremap <C-s>p :set paste<CR>
-nnoremap <C-s>np :set nopaste<CR>
+" paste mode toggle
+set pastetoggle=<F2>
 
 " command-t stuff
 " add ESC to cancel file listing
