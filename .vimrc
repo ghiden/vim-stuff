@@ -117,10 +117,6 @@ let mapleader = ","
 " paste mode toggle
 set pastetoggle=<F2>
 
-" command-t stuff
-" add ESC to cancel file listing
-let g:CommandTCancelMap=['<Esc>', '<C-c>']
-
 " Custom command
 command! -nargs=* Wrap set wrap linebreak nolist
 
