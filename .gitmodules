@@ -57,6 +57,7 @@
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
 	url = git@github.com:gregsexton/MatchTag.git
+    ignore = dirty
 [submodule "vim-fireplace"]
 	path = vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
