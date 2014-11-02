@@ -81,7 +81,7 @@ if has("autocmd")
   au FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
   au FileType eruby setlocal ts=2 sts=2 sw=2 expandtab
   au FileType python setlocal ts=4 sts=4 sw=4 expandtab
-  au FileType php setlocal ts=4 sts=4 sw=4 expandtab
+  au FileType php setlocal ts=2 sts=2 sw=2 expandtab
 
    " HTML-like
   au FileType html setlocal ts=2 sts=2 sw=2 expandtab
