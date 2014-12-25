@@ -1,3 +1,38 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'mileszs/ack.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'skwp/vim-rspec'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'Shougo/unite.vim'
+Plug 'derekwyatt/vim-scala'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-unimpaired'
+Plug 'mileszs/ack.vim'
+Plug 'triglav/vim-visual-increment'
+Plug 'gregsexton/MatchTag'
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'guns/vim-clojure-static'
+Plug 'fatih/vim-go'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-multiple-cursors'
+Plug 'tpope/vim-abolish'
+Plug 'mxw/vim-jsx'
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plug 'mattn/emmet-vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-markdown'
+
+Plug '~/vim-stuff/plugin/bclose'
+
+call plug#end()
+
 " input
 set autoindent
 set smartindent
@@ -65,9 +100,6 @@ set fenc=utf-8
 set fencs=utf-8,iso-2022-jp,euc-jp,cp932
 set fileformat=unix
 set fileformats=unix,mac,dos
-
-"Only enable this if you have pathogen
-call pathogen#infect("~/vim-stuff/bundle")
 
 " autocmd
 if has("autocmd") 
