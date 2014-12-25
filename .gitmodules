@@ -1,9 +1,0 @@
-[submodule "unite.vim"]
-	path = unite.vim
-	url = git://github.com/Shougo/unite.vim.git
-[submodule "vim-fireplace"]
-	path = vim-fireplace
-	url = git://github.com/tpope/vim-fireplace.git
-[submodule "rainbow_parentheses.vim"]
-	path = rainbow_parentheses.vim
-	url = git@github.com:kien/rainbow_parentheses.vim.git
