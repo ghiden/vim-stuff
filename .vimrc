@@ -28,6 +28,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-markdown'
+Plug 'scrooloose/nerdtree'
 
 Plug '~/vim-stuff/plugin/bclose'
 
