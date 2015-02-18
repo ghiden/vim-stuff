@@ -28,6 +28,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-markdown'
+Plug 'othree/yajs.vim'
 
 Plug '~/vim-stuff/plugin/bclose'
 
@@ -126,6 +127,8 @@ if has("autocmd")
   au FileType javascript setlocal ts=2 sts=2 sw=2 expandtab
   au FileType coffee setlocal ts=2 sts=2 sw=2 expandtab
   au FileType json setlocal ts=2 sts=2 sw=2 expandtab
+  " take es6 as js file
+  au BufNewFile,BufRead *.es6 set filetype=javascript
 
   " etc
   au FileType cucumber setlocal ts=2 sts=2 sw=2 expandtab
