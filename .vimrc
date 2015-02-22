@@ -129,6 +129,8 @@ if has("autocmd")
   au FileType json setlocal ts=2 sts=2 sw=2 expandtab
   " take es6 as js file
   au BufNewFile,BufRead *.es6 set filetype=javascript
+  " take ejs file as html
+  au BufNewFile,BufRead *.ejs set filetype=html
 
   " etc
   au FileType cucumber setlocal ts=2 sts=2 sw=2 expandtab
