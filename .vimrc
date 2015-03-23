@@ -195,10 +195,6 @@ let g:ackprg='ag --nogroup --nocolor --column'
 " preview in marked
 nnoremap <C-m>md :silent !open -a Marked.app '%:p'<CR> 
 
-" Boshen need this :(
-noremap H ^
-noremap L g_
-
 " ctags
 set tags+=.tags
 
