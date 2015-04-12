@@ -239,3 +239,6 @@ endif
 
 " highlight the 80th, 100th, 120th columns
 :set colorcolumn=80,100,120
+
+" treat ambiguous double char width properly
+:set ambiwidth=double
