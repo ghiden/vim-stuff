@@ -29,6 +29,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-markdown'
 Plug 'othree/yajs.vim'
+Plug 'elzr/vim-json'
 
 Plug '~/vim-stuff/plugin/bclose'
 
