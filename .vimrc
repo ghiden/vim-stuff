@@ -31,6 +31,7 @@ Plug 'tpope/vim-markdown'
 Plug 'othree/yajs.vim'
 Plug 'elzr/vim-json'
 Plug 'ekalinin/Dockerfile.vim'
+Plug 'nsf/gocode', { 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 
 Plug '~/vim-stuff/plugin/bclose'
 
