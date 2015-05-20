@@ -1,8 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'mileszs/ack.vim'
-Plug 'kien/ctrlp.vim'
-Plug 'mattn/emmet-vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'skwp/vim-rspec'
 Plug 'kien/rainbow_parentheses.vim'
@@ -12,7 +9,6 @@ Plug 'Shougo/unite.vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-unimpaired'
-Plug 'mileszs/ack.vim'
 Plug 'triglav/vim-visual-increment'
 Plug 'gregsexton/MatchTag'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
@@ -31,6 +27,7 @@ Plug 'tpope/vim-markdown'
 Plug 'othree/yajs.vim'
 Plug 'elzr/vim-json'
 Plug 'ekalinin/Dockerfile.vim'
+Plug 'rking/ag.vim'
 Plug 'nsf/gocode', { 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 
 Plug '~/vim-stuff/plugin/bclose'
@@ -190,11 +187,6 @@ let g:ctrlp_working_path_mode = 0
 "let g:ctrlp_user_command = 'find %s -name "*\.swp" -prune -o -name "node_modules" -prune -o -name "\.git" -prune -o -name "\.tmp" -prune -o -name "\.sass-cache" -prune -o -type f'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
-" ack
-" let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column --type-add js=.coffee"
-" Use ag instead
-let g:ackprg='ag --nogroup --nocolor --column'
-
 " preview in marked
 nnoremap <C-m>md :silent !open -a Marked.app '%:p'<CR> 
 
@@ -229,7 +221,7 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-" platinum searcher: pt
+" Unite Grep
 nnoremap <silent> ,g :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
 nnoremap <silent> ,cg :<C-u>Unite grep:. -buffer-name=search-buffer<CR><C-R><C-W>
 nnoremap <silent> ,r :<C-u>UniteResume search-buffer<CR>
