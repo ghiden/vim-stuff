@@ -237,3 +237,7 @@ endif
 
 " treat ambiguous double char width properly
 :set ambiwidth=double
+
+" Omni completion
+inoremap <C-Space> <C-x><C-o>
+inoremap <C-@> <C-x><C-o>
