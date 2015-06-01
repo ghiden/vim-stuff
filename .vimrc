@@ -29,6 +29,8 @@ Plug 'elzr/vim-json'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'rking/ag.vim'
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+Plug 'guns/vim-sexp'
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
 
 Plug '~/vim-stuff/plugin/bclose'
 
