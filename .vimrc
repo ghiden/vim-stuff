@@ -247,6 +247,3 @@ endif
 " Omni completion
 inoremap <C-Space> <C-x><C-o>
 inoremap <C-@> <C-x><C-o>
-
-" jsx: enable jsx in js files
-let g:jsx_ext_required = 0
