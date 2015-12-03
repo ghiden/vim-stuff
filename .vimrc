@@ -248,3 +248,6 @@ endif
 " Omni completion
 inoremap <C-Space> <C-x><C-o>
 inoremap <C-@> <C-x><C-o>
+
+" Go
+au FileType go nmap <Leader>ds <Plug>(go-def-split)
