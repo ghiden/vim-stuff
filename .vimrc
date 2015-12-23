@@ -33,6 +33,7 @@ Plug 'guns/vim-sexp'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
 Plug 'tpope/vim-vinegar'
 Plug 'cespare/vim-toml'
+Plug 'elixir-lang/vim-elixir'
 
 Plug '~/vim-stuff/plugin/bclose'
 
