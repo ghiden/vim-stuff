@@ -185,8 +185,11 @@ au FileType unite nnoremap <silent> <buffer> <ESC><ESC> :q<CR>
 au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 
 " Experimenting Ctrl-J twice for ESC
-inoremap <C-j><C-j> <Esc>
-noremap <C-j><C-j> :nohlsearch<CR> 
+"inoremap <C-j><C-j> <Esc>
+"noremap <C-j><C-j> :nohlsearch<CR>
+" Experimenting again this time with fd just like spacemacs
+inoremap fd <Esc>
+noremap fd :nohlsearch<CR>
 
 set runtimepath^=~/vim-stuff/bundle/ctrlp.vim
 let g:ctrlp_working_path_mode = 0
