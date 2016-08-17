@@ -34,6 +34,7 @@ Plug 'tpope/vim-sexp-mappings-for-regular-people'
 Plug 'tpope/vim-vinegar'
 Plug 'cespare/vim-toml'
 Plug 'elixir-lang/vim-elixir'
+Plug 'stephpy/vim-yaml'
 
 Plug '~/vim-stuff/plugin/bclose'
 
