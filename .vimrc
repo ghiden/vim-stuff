@@ -15,7 +15,6 @@ Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'guns/vim-clojure-static'
 Plug 'fatih/vim-go'
 Plug 'tpope/vim-fugitive'
-Plug 'vim-multiple-cursors'
 Plug 'tpope/vim-abolish'
 Plug 'mxw/vim-jsx'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
