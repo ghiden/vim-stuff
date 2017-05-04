@@ -16,6 +16,7 @@ Plug 'guns/vim-clojure-static'
 Plug 'fatih/vim-go'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-abolish'
+Plug 'leafgarland/typescript-vim'
 Plug 'mxw/vim-jsx'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'mattn/emmet-vim'
