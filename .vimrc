@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'easymotion/vim-easymotion'
 Plug 'kchmck/vim-coffee-script'
 Plug 'skwp/vim-rspec'
 Plug 'kien/rainbow_parentheses.vim'
