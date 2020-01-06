@@ -14,7 +14,7 @@ Plug 'triglav/vim-visual-increment'
 Plug 'gregsexton/MatchTag'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'guns/vim-clojure-static'
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-abolish'
 Plug 'leafgarland/typescript-vim'
