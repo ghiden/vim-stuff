@@ -36,6 +36,8 @@ Plug 'tpope/vim-vinegar'
 Plug 'cespare/vim-toml'
 Plug 'elixir-lang/vim-elixir'
 Plug 'stephpy/vim-yaml'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'alok/notational-fzf-vim'
 
 Plug '~/vim-stuff/plugin/bclose'
 
@@ -257,3 +259,8 @@ inoremap <C-@> <C-x><C-o>
 
 " Go
 au FileType go nmap <Leader>ds <Plug>(go-def-split)
+
+" nv
+let g:nv_search_paths = ['~/Dropbox/docs/Notational Data']
+let g:nv_main_directory = '~/Dropbox/docs/Notational Data'
+let g:nv_default_extension = '.txt'
