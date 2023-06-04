@@ -130,8 +130,8 @@ noremap <C-j><C-j> :nohlsearch<CR>
 :set ambiwidth=double
 
 " nv
-let g:nv_search_paths = ['~/Dropbox/docs/Notational Data']
-let g:nv_main_directory = '~/Dropbox/docs/Notational Data'
+let g:nv_search_paths = ['~/MEGAsync/apps/nvalt']
+let g:nv_main_directory = '~/MEGAsync/apps/nvalt'
 let g:nv_default_extension = '.txt'
 let g:nv_preview_direction = 'down'
 let g:nv_create_note_window = 'e'

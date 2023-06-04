@@ -81,6 +81,13 @@ set laststatus=2
 " FileName [FileType][FileEncoding:FileFormat][ReadOnly][Modified]   Col:Lin/Total
 set statusline=%t\ %y%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%r%m%=%c:%l/%L
 
+" nv
+let g:nv_search_paths = ['~/MEGAsync/apps/nvalt']
+let g:nv_main_directory = '~/MEGAsync/apps/nvalt'
+let g:nv_default_extension = '.txt'
+let g:nv_preview_direction = 'down'
+let g:nv_create_note_window = 'e'
+
 " fzf
 nnoremap <silent> <Leader><C-p> :Files<CR>
 nnoremap <silent> <C-p> :GFiles<CR>
