@@ -117,8 +117,7 @@ set pastetoggle=<F2>
 command! -bang Reload source $MYVIMRC
 
 " Experimenting Ctrl-J twice for ESC
-inoremap <C-j><C-j> <Esc>
-noremap <C-j><C-j> :nohlsearch<CR>
+inoremap jj <Esc>
 " Experimenting again this time with fd just like spacemacs
 " inoremap fd <Esc>
 " noremap fd :nohlsearch<CR>

@@ -59,8 +59,10 @@ let mapleader = ","
 
 " esc alternatives
 " CTRL-J CTRL-J
-inoremap <C-j><C-j> <Esc>
-noremap <C-j><C-j> :nohlsearch<CR>
+inoremap jj <Esc>
+
+" hit esc twice to unhighlight
+noremap <Esc><Esc> :nohlsearch<CR>
 
 " cursor line
 set cursorline
