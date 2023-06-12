@@ -59,6 +59,11 @@ let mapleader = ","
 " CTRL-J CTRL-J
 inoremap jj <Esc>
 
+" search
+set incsearch
+set ignorecase			" ignore case
+set smartcase			" if start with cap, search cap
+
 " hit esc twice to unhighlight
 noremap <Esc><Esc> :nohlsearch<CR>
 
