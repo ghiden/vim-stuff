@@ -118,9 +118,6 @@ command! -bang Reload source $MYVIMRC
 
 " Experimenting Ctrl-J twice for ESC
 inoremap jj <Esc>
-" Experimenting again this time with fd just like spacemacs
-" inoremap fd <Esc>
-" noremap fd :nohlsearch<CR>
 
 " highlight the 80th, 100th, 120th columns
 :set colorcolumn=80,100,120
