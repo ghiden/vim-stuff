@@ -74,8 +74,10 @@ highlight CursorLine guibg=lightblue
 "terminal
 highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
 
-" highlight the 80th, 100th, 120th columns
-:set colorcolumn=80,100,120
+" highlight the 80th, 100th, 120th columns only when not in vscode
+if !exists('g:vscode')
+ :set colorcolumn=80,100,120
+endif
 
 " Update tmux title
 au BufReadPost,FileReadPost,BufNewFile,BufEnter * call system("tmux rename-window " . expand("%"))
