@@ -55,6 +55,9 @@ lua require('Comment').setup()
 
 let mapleader = ","
 
+" default indentation: 2 spaces
+set ts=2 sts=2 sw=2 expandtab
+
 " esc alternatives
 " CTRL-J CTRL-J
 inoremap jj <Esc>
