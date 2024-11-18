@@ -137,3 +137,10 @@ nnoremap <silent> <C-p> :GFiles<CR>
 nnoremap <silent> <Leader><C-p> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 
+" use system clipboard
+if has("unnamedplus")
+  set clipboard=unnamedplus
+else
+  set clipboard=unnamed
+endif
+
