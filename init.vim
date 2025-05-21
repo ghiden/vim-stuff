@@ -96,6 +96,7 @@ let g:nv_search_paths = ['~/MEGAsync/apps/nvalt']
 let g:nv_main_directory = '~/MEGAsync/apps/nvalt'
 let g:nv_default_extension = '.txt'
 let g:nv_preview_direction = 'down'
+let g:nv_create_note_key = 'ctrl-x'
 let g:nv_create_note_window = 'e'
 
 " fzf
