@@ -73,9 +73,9 @@ noremap <Esc><Esc> :nohlsearch<CR>
 " cursor line
 set cursorline
 "gui
-highlight CursorLine guibg=lightblue
+" highlight CursorLine guibg=lightblue
 "terminal
-highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
+" highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
 
 " highlight the 80th, 100th, 120th columns only when not in vscode
 if !exists('g:vscode')
