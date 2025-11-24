@@ -33,13 +33,13 @@ Plug 'tpope/vim-vinegar'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
-" notational velocity alternative: start with :NV
-Plug 'alok/notational-fzf-vim'
-
 " language support
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-ruby/vim-ruby'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+" TidalCycles
+Plug 'tidalcycles/vim-tidal'
 
 " only when you need lisp
 " Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
@@ -54,6 +54,9 @@ call plug#end()
 lua require('Comment').setup()
 
 let mapleader = ","
+
+" tidal
+let maplocalleader = "@"
 
 " default indentation: 2 spaces
 set ts=2 sts=2 sw=2 expandtab
@@ -90,14 +93,6 @@ set showcmd
 set laststatus=2
 " FileName [FileType][FileEncoding:FileFormat][ReadOnly][Modified]   Col:Lin/Total
 set statusline=%t\ %y%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%r%m%=%c:%l/%L
-
-" nv
-let g:nv_search_paths = ['~/MEGAsync/apps/nvalt']
-let g:nv_main_directory = '~/MEGAsync/apps/nvalt'
-let g:nv_default_extension = '.txt'
-let g:nv_preview_direction = 'down'
-let g:nv_create_note_key = 'ctrl-x'
-let g:nv_create_note_window = 'e'
 
 " fzf
 nnoremap <silent> <Leader><C-p> :Files<CR>
