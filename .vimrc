@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
